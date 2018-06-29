@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Styled(Footer)
+  onLayout={[Function]}
+>
+  <Styled(FooterTab)>
+    <Styled(Button)
+      active={true}
+    >
+      <Styled(Icon)
+        active={true}
+        name="user-check"
+        type="Feather"
+      />
+    </Styled(Button)>
+    <Styled(Button)>
+      <Styled(Icon)
+        name="calendar"
+        type="Feather"
+      />
+    </Styled(Button)>
+    <Styled(Button)>
+      <Styled(Icon)
+        name="bar-chart-2"
+        type="Feather"
+      />
+    </Styled(Button)>
+    <Styled(Button)>
+      <Styled(Icon)
+        name="settings"
+        type="Feather"
+      />
+    </Styled(Button)>
+  </Styled(FooterTab)>
+</Styled(Footer)>
+`;

@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<FormsListSubtitle
+  item={
+    Object {
+      "completedForms": 0,
+      "totalForms": 1,
+    }
+  }
+>
+  <Styled(ViewNB)
+    style={
+      Object {
+        "marginLeft": 10,
+        "marginTop": 5,
+      }
+    }
+  >
+    <ViewNB
+      style={
+        Array [
+          Object {},
+          Object {
+            "marginLeft": 10,
+            "marginTop": 5,
+          },
+        ]
+      }
+    >
+      <Component
+        style={
+          Array [
+            Object {},
+            Object {
+              "marginLeft": 10,
+              "marginTop": 5,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+              Object {
+                "marginLeft": 10,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          <Styled(ViewNB)
+            style={
+              Object {
+                "backgroundColor": "red",
+                "borderRadius": 13,
+                "height": 13,
+                "width": 13,
+              }
+            }
+          >
+            <ViewNB
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "backgroundColor": "red",
+                    "borderRadius": 13,
+                    "height": 13,
+                    "width": 13,
+                  },
+                ]
+              }
+            >
+              <Component
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "backgroundColor": "red",
+                      "borderRadius": 13,
+                      "height": 13,
+                      "width": 13,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "backgroundColor": "red",
+                        "borderRadius": 13,
+                        "height": 13,
+                        "width": 13,
+                      },
+                    ]
+                  }
+                />
+              </Component>
+            </ViewNB>
+          </Styled(ViewNB)>
+          <Styled(ViewNB)
+            style={
+              Object {
+                "alignSelf": "flex-end",
+                "left": 20,
+                "position": "absolute",
+                "top": -1,
+              }
+            }
+          >
+            <ViewNB
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "alignSelf": "flex-end",
+                    "left": 20,
+                    "position": "absolute",
+                    "top": -1,
+                  },
+                ]
+              }
+            >
+              <Component
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "alignSelf": "flex-end",
+                      "left": 20,
+                      "position": "absolute",
+                      "top": -1,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "alignSelf": "flex-end",
+                        "left": 20,
+                        "position": "absolute",
+                        "top": -1,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    style={
+                      Object {
+                        "color": "#999",
+                        "fontSize": 13,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                          },
+                          Object {
+                            "color": "#999",
+                            "fontSize": 13,
+                          },
+                        ]
+                      }
+                      uppercase={false}
+                    >
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000",
+                              "fontFamily": "System",
+                              "fontSize": 16,
+                            },
+                            Object {
+                              "color": "#999",
+                              "fontSize": 13,
+                            },
+                          ]
+                        }
+                        uppercase={false}
+                      >
+                        <Text
+                          accessible={true}
+                          allowFontScaling={true}
+                          ellipsizeMode="tail"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#000",
+                                "fontFamily": "System",
+                                "fontSize": 16,
+                              },
+                              Object {
+                                "color": "#999",
+                                "fontSize": 13,
+                              },
+                            ]
+                          }
+                          uppercase={false}
+                        >
+                          0
+                          /
+                          1
+                           Forms Completed
+                        </Text>
+                      </Text>
+                    </Text>
+                  </Styled(Text)>
+                </View>
+              </Component>
+            </ViewNB>
+          </Styled(ViewNB)>
+        </View>
+      </Component>
+    </ViewNB>
+  </Styled(ViewNB)>
+</FormsListSubtitle>
+`;

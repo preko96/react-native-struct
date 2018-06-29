@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Styled(Container)>
+  <Styled(Header)>
+    <Styled(Left)>
+      <Connect(BackButton) />
+    </Styled(Left)>
+    <Styled(Body)>
+      <Styled(Text)>
+        Edit Job
+      </Styled(Text)>
+    </Styled(Body)>
+    <Styled(Right)>
+      <Connect(HeaderRightButton)
+        editedJob={
+          Object {
+            "BuildingName": "BuildingName",
+            "BuildingNumber": "BuildingNumber",
+            "Company": "Company",
+            "County": "County",
+            "ManualAddress": undefined,
+            "ManualAddressReason": "ManualAddressReason",
+            "Postcode": "Postcode",
+            "PrimaryStreet": "PrimaryStreet",
+            "SecondaryStreet": "SecondaryStreet",
+            "SubBuilding": "SubBuilding",
+            "Town": "Town",
+            "activeJob": "activeJob",
+            "jobID": "jobID",
+          }
+        }
+      />
+    </Styled(Right)>
+  </Styled(Header)>
+  <Styled(Content)>
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Company"
+      value="Company"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Sub Building"
+      value="SubBuilding"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Building Name"
+      value="BuildingName"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Building Number"
+      value="BuildingNumber"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Primary Street (Required)"
+      value="PrimaryStreet"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Secondary Street"
+      value="SecondaryStreet"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Town"
+      value="Town"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="County"
+      value="County"
+    />
+    <StyledInput
+      onChangeText={[Function]}
+      placeholder="Postcode (Required)"
+      value="Postcode"
+    />
+  </Styled(Content)>
+</Styled(Container)>
+`;
