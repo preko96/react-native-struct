@@ -1,7 +1,7 @@
-import { takeEvery, put, call, all, takeLatest } from 'redux-saga/effects'
+import { takeLatest } from 'redux-saga/effects'
 import { ON_EXAMPLE_ACTION } from './constants'
 //worker saga
-function* exampleWorker(action) {
+function* exampleWorker() {
 }
 
 //watcher saga

@@ -5,7 +5,7 @@ import store from './src/redux/store'
 import App from './src/App'
 
 const EnhancedApp = () => 
-	<Provider store={store}>
+<Provider store={store}>
 		<App/>
 	</Provider>
 

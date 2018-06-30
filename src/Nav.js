@@ -1,9 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
 import { createStackNavigator, createSwitchNavigator } from 'react-navigation'
-import { createNavigationPropConstructor, initializeListeners, createReduxBoundAddListener } from 'react-navigation-redux-helpers'
-
 import Example from './screens/Example/'
 import AuthScreen from './screens/Auth/Auth/'
 import LoginScreen from './screens/Auth/Login/'
@@ -26,7 +22,7 @@ const AppStack = createStackNavigator(
 
 const AuthStack = createStackNavigator(
 	{
-		Login: createScreenObject
+		Login: createScreenObject(LoginScreen)
 	}
 )
 
